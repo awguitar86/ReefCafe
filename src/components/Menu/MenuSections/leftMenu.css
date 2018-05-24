@@ -3,7 +3,8 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 50px; }
+  margin-top: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 .left-menu-text {
   width: 600px;
@@ -31,7 +32,7 @@
   .menu-item p {
     margin: 0;
     font-weight: normal;
-    width: 460px; }
+    width: 500px; }
 
 .left-menu-images {
   width: 516px;
