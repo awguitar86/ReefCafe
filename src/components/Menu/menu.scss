@@ -1,0 +1,31 @@
+@import '../_colors.scss';
+
+.menu-wrap {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-container {
+    width: 1200px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+    h1 {
+        font-family: $font;
+        font-weight: normal;
+        margin: 0;
+        margin-top: 40px;
+        color: $blue;
+    }
+}
+
+
+@media only screen and (max-width: 1250px) {
+    .menu-container {
+        width: 95vw;
+    }
+}

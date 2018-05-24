@@ -1,0 +1,13 @@
+.home-body {
+  width: 100vw;
+  display: flex;
+  flex-direction: column; }
+
+.home-header {
+  transition: ease-in-out 0.5s; }
+
+.home-header-two {
+  transition: ease-in-out 0.5s; }
+
+.home-header-two-false {
+  display: none; }
