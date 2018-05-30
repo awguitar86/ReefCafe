@@ -1,0 +1,56 @@
+@import '../../_colors.scss';
+
+.right-menu-wrap {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    font-family: $font;
+}
+
+.right-menu-images {
+    width: 516px;
+    display: flex;
+    flex-direction: column;
+    img {
+        width: 516px;
+        height: auto;
+        margin-bottom: 15px;
+    }
+}
+
+.right-menu-text {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: $blue;
+    // border: solid gold;
+    h2 {
+        border-bottom: solid 1px $blue;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
+
+.menu-item {
+    width: 600px;
+    flex-direction: column;
+    margin-bottom: 20px;
+    div {
+        width: 600px;
+        display: flex;
+        justify-content: space-between;
+        h3 {
+            margin: 0;
+            font-weight: normal;
+        }
+    }
+    p {
+        margin: 0;
+        font-weight: normal;
+        width: 500px;
+    }
+}

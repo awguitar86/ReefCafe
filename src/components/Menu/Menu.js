@@ -20,7 +20,11 @@ class Menu extends Component {
             <div className='menu-wrap'>
                 <HeaderTwo />
                 <div className='menu-container'>
-                    <h1>MENU</h1>
+                    <div className='menu-header'>
+                        <button>Order Online</button>
+                        <h1>MENU</h1>
+                        <button>Download Menu</button>
+                    </div>
                     <div className='menu-body'>
                         <Sandwiches />
                         <Salads />

@@ -29,13 +29,6 @@ class Contact extends Component {
                             <p>Mobile: (801) 633-6991</p>
                             <p>keith@iconculinary.com</p>
                         </div>
-                        <div className='chelsea-info'>
-                            <h3>Chelsea</h3>
-                            <p>Event Coordinator</p>
-                            <p>Office: (801) 444-4444 x444</p>
-                            <p>Mobile: (801) 444-4444</p>
-                            <p>chelsea@iconculinary.com</p>
-                        </div>
                     </div>
                     <div className='contact-images'>
                         <img src={BurgerFries} alt='steak and potatoes'/>

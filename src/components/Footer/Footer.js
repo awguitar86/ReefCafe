@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './footer.css';
 import IconLogo from '../../images/IconCulinary-KnifeLogo.svg';
-import MeatPieLogo from '../../images/MeatPieWagon-Logo.png';
+// import MeatPieLogo from '../../images/MeatPieWagon-Logo.png';
 
 export default class Footer extends Component {
     render () {
@@ -9,10 +9,9 @@ export default class Footer extends Component {
             <div className="footer-container">
                 <div className='footer-wrap'>
                     <div className="footer-left">
-                        <p>Please visit our other amazing companies!</p>
+                        <p>Check out our amazing parent company!</p>
                         <div className='footer-image-wrap'>
                             <a href=''><img src={IconLogo} alt='reef cafe logo'/></a>
-                            <a href=''><img src={MeatPieLogo} alt='meat pie wagon logo' /></a>
                         </div>
                     </div>
 
