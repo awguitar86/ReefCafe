@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import HeaderTwo from '../HeaderTwo/HeaderTwo';
 import './menu.css';
+import PDFMenu from './ReefCafeMenu.pdf';
 
 import Sandwiches from './MenuSections/Sandwiches';
 import Salads from './MenuSections/Salads';
@@ -21,9 +22,9 @@ class Menu extends Component {
                 <HeaderTwo />
                 <div className='menu-container'>
                     <div className='menu-header'>
-                        <button>Order Online</button>
+                        <a href='https://reefcafe.mobilebytes.com/' target='_blank'><button>Order Online</button></a>
                         <h1>MENU</h1>
-                        <button>Download Menu</button>
+                        <a href={PDFMenu} download><button>Download Menu</button></a>
                     </div>
                     <div className='menu-body'>
                         <Sandwiches />
