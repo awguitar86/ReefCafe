@@ -20,7 +20,8 @@
     top: 0px;
     left: 0px;
     width: 100vw;
-    height: 100%; }
+    height: 100%;
+    background: white; }
   .ham-header {
     width: 93vw;
     height: 80px;
@@ -48,8 +49,10 @@
     justify-content: center;
     align-items: center; }
     .ham-logo img {
-      width: 120px;
-      height: auto; }
+      width: 180px;
+      height: auto;
+      margin-bottom: 3px;
+      margin-right: 5px; }
   .ham-close {
     width: 31vw;
     height: 80px;
@@ -78,14 +81,14 @@
   .ham-social {
     height: 60px; }
     .ham-social a {
-      margin-right: 30px;
       width: 25px; }
       .ham-social a img {
         width: 25px; }
   .ham-logo {
     height: 60px; }
     .ham-logo img {
-      width: 90px; }
+      width: 120px;
+      margin-right: 3px; }
   .ham-close {
     height: 60px; }
   .ham-menu-items a {
@@ -100,6 +103,6 @@
       width: 20px;
       height: 20px; }
   .ham-logo img {
-    width: 80px; }
+    width: 90px; }
   .ham-close {
     font-size: 28pt; } }
