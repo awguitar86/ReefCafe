@@ -97,6 +97,9 @@
 }
 
 @media only screen and (max-width: 900px) {
+    .h2-wrap {
+        position: static;
+    }
     .h2-nav {
         display: none;
     }
@@ -121,9 +124,9 @@
     .h2-logo-container {
         height: 60px;
         a {
-            width: 90px;
+            width: 120px;
             img {
-                width: 90px;
+                width: 120px;
             }
         }
     }
@@ -141,9 +144,9 @@
     }
     .h2-logo-container {
         a {
-            width: 80px;
+            width: 90px;
             img {
-                width: 80px;
+                width: 90px;
             }
         }
     }

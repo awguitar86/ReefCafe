@@ -44,6 +44,9 @@ class Beverages extends Component {
                         </div>
                     </div>
                 </div>
+                <div className='right-menu-images-mobile'>
+                    <img src={Beverage} alt='pic of a can of coke'/>
+                </div>
             </div>
         )
     }

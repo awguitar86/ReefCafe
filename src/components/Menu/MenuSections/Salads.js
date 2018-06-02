@@ -45,6 +45,10 @@ class Salads extends Component {
                         </div>
                     </div>
                 </div>
+                <div className='right-menu-images-mobile'>
+                    <img src={AppleSalad} alt='Apple Salad'/>
+                    <img src={StrawberrySalad} alt='Strawberry Salad'/>
+                </div>
             </div>
         )
     }

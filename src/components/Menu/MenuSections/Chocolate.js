@@ -65,6 +65,10 @@ class Chocolate extends Component {
                         </div>
                     </div>
                 </div>
+                <div className='right-menu-images-mobile'>
+                    <img src={Chocolates} alt='chocolates'/>
+                    <img src={RaspberryChocolates} alt='raspberries in chocolate'/>
+                </div>
             </div>
         )
     }

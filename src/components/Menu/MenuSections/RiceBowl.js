@@ -22,6 +22,9 @@ class Rice extends Component {
                         </div>
                     </div>
                 </div>
+                <div className='right-menu-images-mobile'>
+                    <img src={RiceBowl} alt='Rice Bowl'/>
+                </div>
             </div>
         )
     }

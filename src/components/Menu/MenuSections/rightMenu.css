@@ -42,3 +42,104 @@
     margin: 0;
     font-weight: normal;
     width: 500px; }
+
+.right-menu-images-mobile {
+  display: none; }
+
+@media only screen and (max-width: 1250px) {
+  .right-menu-wrap {
+    width: 1000px; }
+  .right-menu-images {
+    width: 416px; }
+    .right-menu-images img {
+      width: 416px; }
+  .right-menu-text {
+    width: 500px; }
+  .menu-item {
+    width: 500px; }
+    .menu-item div {
+      width: 500px; }
+    .menu-item p {
+      width: 450px; } }
+
+@media only screen and (max-width: 1050px) {
+  .right-menu-wrap {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .right-menu-images {
+    width: 316px;
+    display: flex;
+    flex-direction: column; }
+    .right-menu-images img {
+      width: 316px;
+      height: auto;
+      margin-bottom: 15px; }
+  .right-menu-text {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #017BA2; }
+    .right-menu-text h2 {
+      border-bottom: solid 1px #017BA2;
+      margin: 0;
+      margin-bottom: 10px;
+      font-size: 14pt; }
+  .menu-item {
+    width: 450px;
+    flex-direction: column;
+    margin-bottom: 10px; }
+    .menu-item div {
+      width: 450px;
+      display: flex;
+      justify-content: space-between; }
+      .menu-item div h3 {
+        margin: 0;
+        font-weight: normal;
+        font-size: 12pt; }
+    .menu-item p {
+      margin: 0;
+      font-weight: normal;
+      width: 400px;
+      font-size: 10pt; } }
+
+@media only screen and (max-width: 850px) {
+  .right-menu-wrap {
+    width: 93vw;
+    flex-direction: column;
+    align-items: center; }
+  .right-menu-images {
+    display: none; }
+  .right-menu-text {
+    width: 93vw;
+    margin-bottom: 20px; }
+  .menu-item {
+    width: 93vw; }
+    .menu-item div {
+      width: 93vw; }
+      .menu-item div h3 {
+        margin-bottom: 4px; }
+    .menu-item p {
+      width: 80vw; }
+  .right-menu-images-mobile {
+    display: initial;
+    width: 90vw;
+    display: flex;
+    flex-direction: column; }
+    .right-menu-images-mobile img {
+      width: 90vw;
+      height: auto;
+      margin-bottom: 15px; } }
+
+@media only screen and (max-width: 530px) {
+  .right-menu-text h2 {
+    font-size: 12pt; }
+  .menu-item div h3 {
+    font-size: 10pt; }
+  .menu-item p {
+    font-size: 8pt; } }

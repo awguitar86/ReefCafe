@@ -38,6 +38,9 @@ class IceCream extends Component {
                         </div>
                     </div>
                 </div>
+                <div className='right-menu-images-mobile'>
+                    <img src={IceCreamCones} alt='ice cream cones'/>
+                </div>
             </div>
         )
     }
