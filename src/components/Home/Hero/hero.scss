@@ -53,32 +53,58 @@
 
     .hero-pic {
         width: 95vw;
+        img {
+            width: 23vw;
+        }
     }
 
     .hero-welcome{
         width: 95vw;
-    }
-}
-
-@media only screen and (max-width: 750px){
-    .hero-logo {
-        img {
-            width: 300px;
+        p {
+            font-size: 16pt;
         }
     }
-    .hero-pic {
-        height: 400px;
+}
+
+@media only screen and (max-width: 1010px){
+    .hero-welcome{
+        p {
+            font-size: 14pt;
+        }
     }
 }
 
-@media only screen and (max-width: 500px) {
-    .hero-pic {
-        height: 300px;
+@media only screen and (max-width: 885px){
+    .hero-welcome{
+        p {
+            font-size: 12pt;
+        }
     }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 750px) {
     .hero-pic {
-        height: 250px;
+        img {
+            width: 29vw;
+        }
+    }
+    .salads {
+        display: none;
+    }
+    .hero-welcome{
+        p {
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 415px) {
+    .hero-pic {
+        img {
+            width: 45vw;
+        }
+    }
+    .cooking {
+        display: none;
     }
 }

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './about.css';
 import Salad from '../../../images/SaladAppleBlueberry.jpg';
 import RiceBowl from '../../../images/RiceBowlSteak.jpg';
+import SaladMobile from '../../../images/SaladHomePage.jpg';
 
 export default class About extends Component {
     render () {
@@ -23,6 +24,9 @@ export default class About extends Component {
                     <div className="about-img">
                         <img src={Salad} alt="Salad"/>
                         <img src={RiceBowl} alt="Rice Bowl"/>
+                    </div>
+                    <div className='about-img-mobile'>
+                        <img src={SaladMobile} alt='salad'/>
                     </div>
                 </div>
             </div>

@@ -13,10 +13,10 @@ export default class Hero extends Component {
             <div className='hero-wrap'>
                 <div className='hero-logo'><img src={ReefHomeLogo} alt='icon culinary logo'/></div>
                 <div className='hero-pic'>
-                    <img src={Cooking} alt='Picture of Cooking'/>
+                    <img src={Cooking} alt='Picture of Cooking' className='cooking'/>
                     <img src={Leaves} alt='picture of leaves'/>
                     <img src={JellyFish} alt='picture of jelly fish'/>
-                    <img src={Salads} alt='picture of salads'/>
+                    <img src={Salads} alt='picture of salads' className='salads'/>
                 </div>
                 <div className='hero-welcome'>
                     <p>
