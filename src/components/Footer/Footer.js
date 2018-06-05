@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './footer.css';
-import IconLogo from '../../images/IconCulinary-KnifeLogo.svg';
+import IconLogo from '../../images/IconCulinaryLogo.png';
 // import MeatPieLogo from '../../images/MeatPieWagon-Logo.png';
 
 export default class Footer extends Component {
