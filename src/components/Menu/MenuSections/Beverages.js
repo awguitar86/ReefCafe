@@ -14,7 +14,7 @@ class Beverages extends Component {
                     <h2>Beverages</h2>
                     <div className='right-menu-items'>
                         <div className='menu-item'>
-                            <p>Coke, Diet Coke, Coke Zero, Dr. Pepper, Root Beer,<br/> Fresca, Fruit Punch, Lemonade</p>
+                            <p>Coke, Diet Coke, Coke Zero, Dr. Pepper, Diet Dr. Pepper,<br/> Root Beer, Fruit Punch, Lemonade</p>
                         </div>
                         <div className='menu-item'>
                             <div>

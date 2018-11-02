@@ -70,16 +70,15 @@
 
 .home-h2-nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    width: 400px;
+    width: 340px;
     height: 80px;
     font-family: $font;
     font-size: 12pt;
     // border: solid red;
     a {
         text-decoration: none;
-        margin-left: 68px;
         color: $blue;
         &:hover {
             border-bottom: solid 1px $blue;

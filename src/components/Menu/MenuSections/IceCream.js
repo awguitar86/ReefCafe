@@ -11,6 +11,15 @@ class IceCream extends Component {
                     <img src={IceCreamCones} alt='ice cream cones'/>
                 </div>
                 <div className='right-menu-text'>
+                    <h2>Ice Cream</h2>
+                    <div className='right-menu-items'>
+                        <div className='menu-item'>
+                            <div>
+                                <h3>Root Beer Float</h3>
+                                <h3>$4.99</h3>
+                            </div>
+                        </div>
+                    </div>
                     <h2>Hand Scooped Ice Cream</h2>
                     <div className='right-menu-items'>
                         <div className='menu-item'>

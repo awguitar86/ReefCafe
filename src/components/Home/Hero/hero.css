@@ -5,7 +5,7 @@
   align-items: center; }
 
 .hero-logo {
-  width: 1200px;
+  width: 1000px;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -21,7 +21,7 @@
   justify-content: space-between;
   align-items: center; }
   .hero-pic img {
-    width: 285px;
+    width: 230px;
     height: auto; }
 
 .hero-welcome {

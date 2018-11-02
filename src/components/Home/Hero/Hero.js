@@ -4,6 +4,7 @@ import Cooking from '../../../images/CookingInKitchen.jpg';
 import Leaves from '../../../images/GrowTowerLeaves.jpg';
 import JellyFish from '../../../images/JellyFish.jpg';
 import Salads from '../../../images/SaladLine.jpg';
+import RiceBowl from '../../../images/HeroRiceBowl.jpg';
 
 import './hero.css';
 
@@ -17,6 +18,7 @@ export default class Hero extends Component {
                     <img src={Leaves} alt='picture of leaves'/>
                     <img src={JellyFish} alt='picture of jelly fish'/>
                     <img src={Salads} alt='picture of salads' className='salads'/>
+                    <img src={RiceBowl} alt='picture of jelly fish'/>
                 </div>
                 <div className='hero-welcome'>
                     <p>

@@ -23,7 +23,7 @@
 }
 
 .h2-social {
-    width: 400px;
+    width: 340px;
     height: 80px;
     display: flex;
     justify-content: flex-start;
@@ -42,7 +42,7 @@
 }
 
 .h2-logo-container {
-    width: 400px;
+    width: 520px;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -59,16 +59,15 @@
 
 .h2-nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
-    width: 400px;
+    width: 340px;
     height: 80px;
     font-family: $font;
     font-size: 12pt;
     // border: solid red;
     a {
         text-decoration: none;
-        margin-left: 68px;
         color: $blue;
         margin-top: 1px;
         &:hover {

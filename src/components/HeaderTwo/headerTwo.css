@@ -16,7 +16,7 @@
   background: white; }
 
 .h2-social {
-  width: 400px;
+  width: 340px;
   height: 80px;
   display: flex;
   justify-content: flex-start; }
@@ -31,7 +31,7 @@
       height: auto; }
 
 .h2-logo-container {
-  width: 400px;
+  width: 520px;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -44,15 +44,14 @@
 
 .h2-nav {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  width: 400px;
+  width: 340px;
   height: 80px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12pt; }
   .h2-nav a {
     text-decoration: none;
-    margin-left: 68px;
     color: #017BA2;
     margin-top: 1px; }
     .h2-nav a:hover {

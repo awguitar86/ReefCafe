@@ -59,7 +59,7 @@ class Chocolate extends Component {
                         </div>
                         <div className='menu-item'>
                             <div>
-                                <h3>Chocolate Energy Bar</h3>
+                                <h3>Coconut Almond Bar</h3>
                                 <h3>$4.99</h3>
                             </div>
                         </div>

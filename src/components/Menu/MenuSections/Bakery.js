@@ -32,25 +32,13 @@ class Bakery extends Component {
                         </div>
                         <div className='menu-item'>
                             <div>
-                                <h3>Eclairs</h3>
-                                <h3>$2.99</h3>
-                            </div>
-                        </div>
-                        <div className='menu-item'>
-                            <div>
-                                <h3>Lemon Bars</h3>
-                                <h3>$2.99</h3>
-                            </div>
-                        </div>
-                        <div className='menu-item'>
-                            <div>
                                 <h3>Cake Bites</h3>
                                 <h3>$2.99</h3>
                             </div>
                         </div>
                         <div className='menu-item'>
                             <div>
-                                <h3>Oreo Churro</h3>
+                                <h3>Churro</h3>
                                 <h3>$3.99</h3>
                             </div>
                         </div>
@@ -64,12 +52,6 @@ class Bakery extends Component {
                             <div>
                                 <h3>Decorated Cookie</h3>
                                 <h3>$4.49</h3>
-                            </div>
-                        </div>
-                        <div className='menu-item'>
-                            <div>
-                                <h3>Gourmet Brownie</h3>
-                                <h3>$4.99</h3>
                             </div>
                         </div>
                         <div className='menu-item'>
@@ -94,6 +76,12 @@ class Bakery extends Component {
                             <div>
                                 <h3>Pretzel Bites</h3>
                                 <h3>$4.99</h3>
+                            </div>
+                        </div>
+                        <div className='menu-item'>
+                            <div>
+                                <h3>Gourmet Brownie</h3>
+                                <h3>$5.99</h3>
                             </div>
                         </div>
                     </div>

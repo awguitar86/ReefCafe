@@ -44,12 +44,6 @@ class KidsRock extends Component {
                                 <h3>$4.99</h3>
                             </div>
                         </div>
-                        <div className='menu-item'>
-                            <div>
-                                <h3>Hot Dog</h3>
-                                <h3>$4.99</h3>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <div className='left-menu-images'>

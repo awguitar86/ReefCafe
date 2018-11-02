@@ -17,25 +17,14 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center; }
-  .footer-left p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14pt;
-    margin: 0;
-    margin-bottom: 15px;
-    color: white; }
-
-.footer-image-wrap {
-  width: 430px;
-  display: flex;
-  justify-content: flex-start; }
-  .footer-image-wrap a {
+  .footer-left a {
     display: flex;
     justify-content: center;
     align-items: center;
     background: white;
     border-radius: 11px; }
-    .footer-image-wrap a img {
-      width: 190px;
+    .footer-left a img {
+      width: 120px;
       height: auto; }
 
 .footer-right {
@@ -47,6 +36,8 @@
   align-items: flex-end;
   justify-content: flex-end;
   color: white; }
+  .footer-right p {
+    margin: 0; }
 
 @media only screen and (max-width: 1250px) {
   .footer-wrap {
