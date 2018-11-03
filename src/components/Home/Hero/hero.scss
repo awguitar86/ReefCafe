@@ -32,6 +32,11 @@
     }
 }
 
+.first-slide {
+    width: 230px;
+    height: auto;
+}
+
 .hero-welcome{
     width: 1200px;
     display: flex;
@@ -60,7 +65,9 @@
             width: 23vw;
         }
     }
-
+    .salads {
+        display: none;
+    }
     .hero-welcome{
         width: 95vw;
         p {
@@ -91,7 +98,7 @@
             width: 29vw;
         }
     }
-    .salads {
+    .ricebowl {
         display: none;
     }
     .hero-welcome{
