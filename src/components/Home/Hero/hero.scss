@@ -32,9 +32,21 @@
     }
 }
 
-.first-slide {
+.hero-first-pic {
     width: 230px;
     height: auto;
+}
+.each-slide {
+    width: 230px;
+    height: 345px;
+    div {
+        width: 230px;
+        height: 345px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 4px;
+    }
 }
 
 .hero-welcome{

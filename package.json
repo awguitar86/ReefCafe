@@ -12,7 +12,9 @@
     "react-redux": "^5.0.6",
     "react-responsive": "^3.0.0",
     "react-router-dom": "^4.2.2",
-    "react-scripts": "^2.1.1"
+    "react-scripts": "^2.1.1",
+    "react-slideshow-image": "^1.0.8",
+    "redux": "^4.0.1"
   },
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
@@ -23,5 +25,10 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {}
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
