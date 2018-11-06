@@ -26,13 +26,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    img {
-        width: 230px;
-        height: auto;
-    }
 }
 
 .hero-first-pic {
+    width: 230px;
+    height: auto;
+}
+.hero-second-pic {
+    width: 230px;
+    height: auto;
+}
+.hero-third-pic {
+    width: 230px;
+    height: auto;
+}
+.hero-fourth-pic {
+    width: 230px;
+    height: auto;
+}
+.hero-fifth-pic {
     width: 230px;
     height: auto;
 }
@@ -73,11 +85,8 @@
 
     .hero-pic {
         width: 95vw;
-        img {
-            width: 23vw;
-        }
     }
-    .salads {
+    .hero-fifth-pic {
         display: none;
     }
     .hero-welcome{
@@ -94,6 +103,26 @@
             font-size: 14pt;
         }
     }
+    .hero-first-pic {
+        width: 200px;
+    }
+    .hero-second-pic {
+        width: 200px;
+    }
+    .hero-third-pic {
+        width: 200px;
+    }
+    .hero-fourth-pic {
+        width: 200px;
+    }
+    .each-slide {
+        width: 200px;
+        height: 310px;
+        div {
+            width: 200px;
+            height: 310px;
+        }
+    }
 }
 
 @media only screen and (max-width: 885px){
@@ -102,16 +131,48 @@
             font-size: 12pt;
         }
     }
-}
-
-@media only screen and (max-width: 750px) {
-    .hero-pic {
-        img {
-            width: 29vw;
+    .hero-first-pic {
+        width: 180px;
+    }
+    .hero-second-pic {
+        width: 180px;
+    }
+    .hero-third-pic {
+        width: 180px;
+    }
+    .hero-fourth-pic {
+        width: 180px;
+    }
+    .each-slide {
+        width: 180px;
+        height: 290px;
+        div {
+            width: 180px;
+            height: 290px;
         }
     }
-    .ricebowl {
+}
+
+@media only screen and (max-width: 770px) {
+    .hero-first-pic {
+        width: 220px;
+    }
+    .hero-second-pic {
+        width: 220px;
+    }
+    .hero-third-pic {
+        width: 220px;
+    }
+    .hero-fourth-pic {
         display: none;
+    }
+    .each-slide {
+        width: 220px;
+        height: 310px;
+        div {
+            width: 220px;
+            height: 310px;
+        }
     }
     .hero-welcome{
         p {
@@ -120,13 +181,131 @@
     }
 }
 
-@media only screen and (max-width: 415px) {
-    .hero-pic {
-        img {
-            width: 45vw;
+@media only screen and (max-width: 725px) {
+    .hero-first-pic {
+        width: 200px;
+    }
+    .hero-second-pic {
+        width: 200px;
+    }
+    .hero-third-pic {
+        width: 200px;
+    }
+    .each-slide {
+        width: 200px;
+        height: 290px;
+        div {
+            width: 200px;
+            height: 290px;
         }
     }
-    .cooking {
+}
+@media only screen and (max-width: 660px) {
+    .hero-first-pic {
+        width: 180px;
+    }
+    .hero-second-pic {
+        width: 180px;
+    }
+    .hero-third-pic {
+        width: 180px;
+    }
+    .each-slide {
+        width: 180px;
+        height: 270px;
+        div {
+            width: 180px;
+            height: 270px;
+        }
+    }
+}
+@media only screen and (max-width: 590px) {
+    .hero-first-pic {
+        width: 230px;
+    }
+    .hero-second-pic {
+        width: 230px;
+    }
+    .hero-third-pic {
         display: none;
+    }
+    .each-slide {
+        width: 230px;
+        height: 340px;
+        div {
+            width: 230px;
+            height: 340px;
+        }
+    }
+}
+@media only screen and (max-width: 500px) {
+    .hero-first-pic {
+        width: 200px;
+    }
+    .hero-second-pic {
+        width: 200px;
+    }
+    .hero-third-pic {
+        display: none;
+    }
+    .each-slide {
+        width: 200px;
+        height: 300px;
+        div {
+            width: 200px;
+            height: 300px;
+        }
+    }
+}
+@media only screen and (max-width: 435px) {
+    .hero-pic {
+        width: 92vw;
+    }
+    .hero-first-pic {
+        width: 180px;
+    }
+    .hero-second-pic {
+        width: 180px;
+    }
+    .each-slide {
+        width: 180px;
+        height: 250px;
+        div {
+            width: 180px;
+            height: 250px;
+        }
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .hero-first-pic {
+        width: 160px;
+    }
+    .hero-second-pic {
+        width: 160px;
+    }
+    .each-slide {
+        width: 160px;
+        height: 230px;
+        div {
+            width: 160px;
+            height: 230px;
+        }
+    }
+}
+@media only screen and (max-width: 325px) {
+    .hero-first-pic {
+        width: 140px;
+    }
+    .hero-second-pic {
+        width: 140px;
+    }
+    .each-slide {
+        width: 140px;
+        height: 210px;
+        div {
+            width: 140px;
+            height: 210px;
+        }
     }
 }

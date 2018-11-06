@@ -93,7 +93,7 @@ export default class Hero extends Component {
                             </div>
                         </Fade>
                     </div>
-                    <div className='hero-first-pic'>
+                    <div className='hero-second-pic'>
                         <Fade {...this.state.properties2}>
                             <div className="each-slide">
                                 <div style={{'backgroundImage': `url(${this.state.images2[0]})`}}>
@@ -113,7 +113,7 @@ export default class Hero extends Component {
                             </div>
                         </Fade>
                     </div>
-                    <div className='hero-first-pic'>
+                    <div className='hero-third-pic'>
                         <Fade {...this.state.properties3}>
                             <div className="each-slide">
                                 <div style={{'backgroundImage': `url(${this.state.images3[0]})`}}>
@@ -133,7 +133,7 @@ export default class Hero extends Component {
                             </div>
                         </Fade>
                     </div>
-                    <div className='hero-first-pic'>
+                    <div className='hero-fourth-pic'>
                         <Fade {...this.state.properties4}>
                             <div className="each-slide">
                                 <div style={{'backgroundImage': `url(${this.state.images4[0]})`}}>
@@ -153,7 +153,7 @@ export default class Hero extends Component {
                             </div>
                         </Fade>
                     </div>
-                    <div className='hero-first-pic'>
+                    <div className='hero-fifth-pic'>
                         <Fade {...this.state.properties5}>
                             <div className="each-slide">
                                 <div style={{'backgroundImage': `url(${this.state.images5[0]})`}}>
