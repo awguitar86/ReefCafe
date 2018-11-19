@@ -34,6 +34,13 @@ class Sandwiches extends Component {
                         </div>
                         <div className='menu-item'>
                             <div>
+                                <h3>Teriyaki Pineapple Burger</h3>
+                                <h3>$9.49</h3>
+                            </div>
+                            <p>Freshly grilled hamburger patty with grilled pineapple and teriyaki sauce smothering the fresh baked bun.</p>
+                        </div>
+                        <div className='menu-item'>
+                            <div>
                                 <h3>Grilled Chicken Club</h3>
                                 <h3>$9.49</h3>
                             </div>
@@ -41,14 +48,21 @@ class Sandwiches extends Component {
                         </div>
                         <div className='menu-item'>
                             <div>
-                                <h3>Jumbo Kosher Dog</h3>
-                                <h3>$6.99</h3>
+                                <h3>Grilled Chicken Pineapple Teriyaki Sandwich</h3>
+                                <h3>$9.49</h3>
                             </div>
+                            <p>Sweet grilled pineapple ring on a grilled chicken breast with sweet teriyaki sauce on a lightly toasted bun.</p>
                         </div>
                         <div className='menu-item'>
                             <div>
                                 <h3>Grown-ups Grilled Cheese</h3>
                                 <h3>$7.49</h3>
+                            </div>
+                        </div>
+                        <div className='menu-item'>
+                            <div>
+                                <h3>Jumbo Kosher Dog</h3>
+                                <h3>$6.99</h3>
                             </div>
                         </div>
                     </div>

@@ -38,6 +38,7 @@ export default class HamDropdown extends Component {
     }
 
     render () {
+        let styles = {zIndex: 12345};
         return (
             <div className='ham-wrap'>
                 <div onClick={this.handleClick.bind(this)} className='hamburger-menu'>
@@ -45,20 +46,21 @@ export default class HamDropdown extends Component {
                 </div>
                 <div className={'backdrop ' + (this.state.open ? 'open' : '')} onClick={this.handleClick.bind(this)}/>
                 {this.state.open &&
-                <div className='ham-dropdown-menu' >
+                <div className='ham-dropdown-menu' style={styles}>
                     <div onClick={this.handleClick.bind(this)} className='ham-header'>
                         <div className='ham-social'>
-                            <a href=''><img src={facebook} alt='facebook logo'/></a>
-                            <a href=''><img src={instagram} alt='instagram logo'/></a>
+                            <a href='https://www.facebook.com/The-Reef-Cafe-1781006448614622/'><img src={facebook} alt='facebook logo'/></a>
+                            <a href='https://www.instagram.com/thereefcafe/'><img src={instagram} alt='instagram logo'/></a>
                         </div>
                         <div className='ham-logo'>
                             <img src={ReefLogo} alt='icon culinary logo'/>
                         </div>
                         <div className='ham-close'>&times;</div>
                     </div>
-                    <div onClick={this.handleClick.bind(this)} className='ham-menu-items'><Link to='/'>Home</Link></div>
-                    <div onClick={this.handleClick.bind(this)} className='ham-menu-items'><Link to='/menu'>Menu</Link></div>
-                    <div onClick={this.handleClick.bind(this)} className='ham-menu-items'><Link to='/contact'>Contact</Link></div>
+                    <Link to='/' onClick={this.handleClick.bind(this)} className='ham-menu-items'>HOME</Link>
+                    <Link to='/menu' onClick={this.handleClick.bind(this)} className='ham-menu-items'>MENU</Link>
+                    <Link to='/contact' onClick={this.handleClick.bind(this)} className='ham-menu-items'>CONTACT</Link>
+                    <a href='https://reefcafe.mobilebytes.com/' target='_blank' onClick={this.handleClick.bind(this)} className='ham-menu-items'>ORDER</a>
                 </div>}
             </div>
         )

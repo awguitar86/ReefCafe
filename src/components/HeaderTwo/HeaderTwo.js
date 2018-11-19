@@ -19,8 +19,8 @@ export default class HeaderTwo extends Component {
             <div className='h2-wrap'>
                 <div className="h2-container">
                     <div className='h2-social'>
-                        <a href='' target='_blank'><img src={facebook} alt='facebook logo'/></a>
-                        <a href='' target='_blank'><img src={instagram} alt='instagram logo'/></a>
+                        <a href='https://www.facebook.com/The-Reef-Cafe-1781006448614622/' target='_blank'><img src={facebook} alt='facebook logo'/></a>
+                        <a href='https://www.instagram.com/thereefcafe/' target='_blank'><img src={instagram} alt='instagram logo'/></a>
                     </div>
                     <div className="h2-logo-container">
                         <Link to='/' ><img src={ReefLogo} alt='icon culinary logo'/></Link>
@@ -29,6 +29,7 @@ export default class HeaderTwo extends Component {
                         <Link to='/' className="h2-home">HOME</Link>
                         <Link to='/menu' className="h2-home">MENU</Link>
                         <Link to='/contact' className="h2-contact">CONTACT</Link>
+                        <a href='https://reefcafe.mobilebytes.com/' target='_blank'>ORDER</a>
                     </nav>
                     <HamDropdown />
                 </div>

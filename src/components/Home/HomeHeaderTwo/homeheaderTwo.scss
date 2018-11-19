@@ -8,6 +8,11 @@
     justify-content: center;
     position: fixed;
     transition: ease-in-out 1s;
+    z-index: 1000;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animatetop;
+    animation-duration: 0.5s;
 }
 .home-header-two-false {
     width: 100vw;
@@ -29,9 +34,19 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: solid 1px $blue;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.5s;
+    animation-name: animatetop;
+    animation-duration: 0.5s;
     // z-index: 1;
     // border: solid gold;
 }
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}}
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1} }
 
 .home-h2-social {
     width: 400px;

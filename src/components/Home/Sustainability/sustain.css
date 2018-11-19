@@ -59,8 +59,7 @@
   .grow-tower-greens {
     display: initial;
     width: 90vw;
-    height: auto;
-    z-index: 5; }
+    height: auto; }
     .grow-tower-greens img {
       width: 90vw;
       height: auto; } }

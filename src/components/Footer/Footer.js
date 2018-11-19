@@ -9,7 +9,7 @@ export default class Footer extends Component {
             <div className="footer-container">
                 <div className='footer-wrap'>
                     <div className="footer-left">
-                        <a href='http://iconculinary.com/'><img src={IconLogo} alt='reef cafe logo'/></a>
+                        <a href='http://iconculinary.com/' target="_blank" rel="noopener noreferrer"><img src={IconLogo} alt='reef cafe logo'/></a>
                     </div>
 
                     <div className="footer-right">
