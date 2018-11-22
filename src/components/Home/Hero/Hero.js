@@ -11,7 +11,7 @@ import Cupcake from '../../../images/HeroCupcake.jpg';
 import Hamburger from '../../../images/HeroHamburger.jpg';
 import JellyFishDark from '../../../images/HeroJellyFishDark.jpg';
 import PecanSalad from '../../../images/HeroPecanSalad.jpg';
-import SharkFish from '../../../images/HeroSharkFish.jpg';
+import FruitShark from '../../../images/HeroFruitSharks.jpg';
 import SteakBowl from '../../../images/HeroSteakBowl.jpg';
 import StrawberrySalad from '../../../images/HeroStrawberrySalad.jpg';
 import SweetPotatoSalad from '../../../images/HeroSweetPotatoSalad.jpg';
@@ -27,7 +27,7 @@ export default class Hero extends Component {
         this.state = {
             images1: [ Leaves, JellyFishDark, Cupcake, RiceBowl ],
             images2: [ Cooking, Brownie, ChickenFingers, SteakBowl ],
-            images3: [ RiceBowl, SharkFish, Hamburger, TomatoSalad ],
+            images3: [ RiceBowl, FruitShark, Hamburger, TomatoSalad ],
             images4: [ JellyFish, PecanSalad, StrawberrySalad, SweetPotatoSalad ],
             images5: [ Salads, Fish, Cookies, Leaves ],
             properties1: {
