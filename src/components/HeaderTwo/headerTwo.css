@@ -60,10 +60,6 @@
 @media only screen and (max-width: 1250px) {
   .h2-container {
     width: 93vw; }
-  .h2-social {
-    width: 31vw; }
-  .h2-logo-container {
-    width: 31vw; }
   .h2-nav {
     width: 31vw;
     justify-content: space-around; }
@@ -114,13 +110,11 @@
 @media only screen and (max-width: 415px) {
   .h2-social {
     width: 80px; }
-  .h2-logo-container {
-    width: 38vw; }
-    .h2-logo-container a {
-      width: 100px;
-      height: 27px; }
-      .h2-logo-container a img {
-        width: 100px; }
+  .h2-logo-container a {
+    width: 100px;
+    height: 27px; }
+    .h2-logo-container a img {
+      width: 100px; }
   .ham-wrap {
     width: 80px;
     height: 60px; } }
