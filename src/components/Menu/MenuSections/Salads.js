@@ -18,30 +18,30 @@ class Salads extends Component {
                         <div className='menu-item'>
                             <div>
                                 <h3>Strawberry Pecan Salad</h3>
-                                <h3>$8.99</h3>
+                                <h3>$10.49</h3>
                             </div>
-                            <p>Fresh spring greens, fresh strawberries, candied pecans, blue cheese strawberry vinaigrette and grilled chicken.</p>
+                            <p>Fresh field greens, strawberries, candied pecans, blue cheese with strawberry vinaigrette and chicken breast.</p>
                         </div>
                         <div className='menu-item'>
                             <div>
-                                <h3>Chop Cobb Salad</h3>
-                                <h3>$8.99</h3>
+                                <h3>Cobb Salad</h3>
+                                <h3>$10.49</h3>
                             </div>
-                            <p>Chopped mixed greens, bacon, tomatoes, cheddar, eggs, grilled chicken, and choice of dressing.</p>
+                            <p>Fresh field greens, bacon, tomatoes, cheddar, eggs, chicken breast, and served with ranch dressing.</p>
                         </div>
                         <div className='menu-item'>
                             <div>
                                 <h3>Apple, Blueberry, Bacon Salad</h3>
-                                <h3>$8.99</h3>
+                                <h3>$10.49</h3>
                             </div>
-                            <p>Blueberries, fresh apples, diced maple bacon, grilled chicken breast, pecans, spring greens and local honey drizzle.</p>
+                            <p>Blueberries, fresh apples, diced bacon, chicken breast, pecans, fresh field greens and local honey drizzle.</p>
                         </div>
                         <div className='menu-item'>
                             <div>
                                 <h3>Caesar Salad</h3>
-                                <h3>$7.99</h3>
+                                <h3>$10.49</h3>
                             </div>
-                            <p>Romaine and fresh dressing tossed with parmesan cheese and topped with grilled chicken and fresh made croutons.</p>
+                            <p>Romaine and fresh dressing tossed with parmesan cheese and topped with chicken breast and fresh made croutons.</p>
                         </div>
                     </div>
                 </div>

@@ -14,18 +14,30 @@
 .footer-left {
   width: 600px;
   display: flex;
-  flex-direction: column;
   align-items: flex-start;
-  justify-content: center; }
+  justify-content: flex-start; }
   .footer-left a {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background: white;
-    border-radius: 11px; }
-    .footer-left a img {
-      width: 120px;
-      height: auto; }
+    align-items: center; }
+
+.icon-culinary-logo {
+  background: white;
+  border-radius: 11px;
+  margin-right: 20px; }
+  .icon-culinary-logo img {
+    width: 120px;
+    height: auto; }
+
+.insta-logo img {
+  width: 63px;
+  height: auto; }
+
+.facebook-logo {
+  margin-right: 20px; }
+  .facebook-logo img {
+    width: 63px;
+    height: auto; }
 
 .footer-right {
   width: 600px;

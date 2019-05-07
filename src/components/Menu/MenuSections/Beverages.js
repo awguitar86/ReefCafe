@@ -18,7 +18,7 @@ class Beverages extends Component {
                         </div>
                         <div className='menu-item'>
                             <div>
-                                <h3>Small - 22oz</h3>
+                                <h3>Small - 21oz</h3>
                                 <h3>$2.99</h3>
                             </div>
                             <div>
@@ -32,11 +32,17 @@ class Beverages extends Component {
                         </div>
                         <div className='menu-item'>
                             <div>
-                                <h3>Milk, Chocolate Milk, Capri Sun</h3>
-                                <h3>$1.49</h3>
+                                <h3>Capri Sun / Juice Box</h3>
+                                <h3>$1.69</h3>
                             </div>
-                        </div>
-                        <div className='menu-item'>
+                            <div>
+                                <h3>Milk / Chocolate Milk</h3>
+                                <h3>$1.99</h3>
+                            </div>
+                            <div>
+                                <h3>Bottled Water</h3>
+                                <h3>$2.99</h3>
+                            </div>
                             <div>
                                 <h3>Monster</h3>
                                 <h3>$3.50</h3>

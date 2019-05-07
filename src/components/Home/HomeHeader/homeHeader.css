@@ -9,7 +9,7 @@
   width: 1200px;
   height: 80px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   border-bottom: solid 1px #017BA2;
   z-index: 1;

@@ -10,60 +10,64 @@ class Sandwiches extends Component {
             <div className='left-menu-wrap'>
                 <div className='left-menu-text'>
                     <h2>Sandwiches & Burgers</h2>
+                    <p className="sandwich-text">Side choices of fries, house-made chips, fresh fruit, or a side salad.</p>
+                    <p className="sandwich-text">Cheese options: Cheddar, Provolone, Havarti, and Parmesan</p>
                     <div className='left-menu-items'>
                         <div className='menu-item'>
                             <div>
-                                <h3>Applewood Smoked Pulled Pork Burger</h3>
-                                <h3>$9.49</h3>
+                                <h3>Smoked Pulled Pork Burger</h3>
+                                <h3>$10.49</h3>
                             </div>
-                            <p>Tender roasted pork with a fresh apple slaw and choice of side.</p>
+                            <p>Tender roasted pork with melted aged cheddar cheese, fresh slaw and choice of side.</p>
                         </div>
                         <div className='menu-item'>
                             <div>
                                 <h3>Reef Burger</h3>
-                                <h3>$9.49</h3>
+                                <h3>$10.49</h3>
                             </div>
-                            <p>Fresh ground chuck, choice of cheese, maple bacon, lettuce, tomato and onion, served on a fresh baked toasted bun.</p>
+                            <p>Fresh ground beef, melted aged cheddar cheese, bacon, lettuce, tomato and onion, served on a fresh toasted bun with choice of side.</p>
                         </div>
                         <div className='menu-item'>
                             <div>
                                 <h3>Garlic Parmesan Burger</h3>
-                                <h3>$9.49</h3>
+                                <h3>$10.49</h3>
                             </div>
-                            <p>Garlic and parmesan cheese, lettuce, tomato and onion served on a fresh baked toasted bun.</p>
+                            <p>Garlic and melted parmesan cheese, lettuce, tomato and onion served on a fresh toasted bun and choice of side.</p>
                         </div>
                         <div className='menu-item'>
                             <div>
                                 <h3>Teriyaki Pineapple Burger</h3>
-                                <h3>$9.49</h3>
+                                <h3>$10.49</h3>
                             </div>
-                            <p>Freshly grilled hamburger patty with grilled pineapple and teriyaki sauce smothering the fresh baked bun.</p>
+                            <p>Freshly grilled beef patty with grilled pineapple, melted provolone cheese and teriyaki sauce on a fresh toasted bun and choice of side.</p>
                         </div>
                         <div className='menu-item'>
                             <div>
                                 <h3>Grilled Chicken Club</h3>
-                                <h3>$9.49</h3>
+                                <h3>$10.49</h3>
                             </div>
-                            <p>On sourdough bread with grilled chicken, bacon, lettuce, tomato, avocado and cheese.</p>
+                            <p>Toasted sourdough bread with grilled chicken, bacon, lettuce, tomato, avocado and aged cheddar cheese with choice of side.</p>
                         </div>
                         <div className='menu-item'>
                             <div>
                                 <h3>Grilled Chicken Pineapple Teriyaki Sandwich</h3>
-                                <h3>$9.49</h3>
+                                <h3>$10.49</h3>
                             </div>
-                            <p>Sweet grilled pineapple ring on a grilled chicken breast with sweet teriyaki sauce on a lightly toasted bun.</p>
+                            <p>Grilled pineapple ring on a grilled chicken breast with melted provolone cheese and teriyaki sauce on a fresh toasted bun with choice of side.</p>
                         </div>
                         <div className='menu-item'>
                             <div>
-                                <h3>Grown-ups Grilled Cheese</h3>
+                                <h3>Grilled Cheese</h3>
+                                <h3>$8.49</h3>
+                            </div>
+                            <p>Four delicious blended cheeses on toasted french bread with choice of side.</p>
+                        </div>
+                        <div className='menu-item'>
+                            <div>
+                                <h3>Kosher Hot Dog</h3>
                                 <h3>$7.49</h3>
                             </div>
-                        </div>
-                        <div className='menu-item'>
-                            <div>
-                                <h3>Jumbo Kosher Dog</h3>
-                                <h3>$6.99</h3>
-                            </div>
+                            <p>Jumbo all beef frank on a toasted bun with choice of side.</p>
                         </div>
                     </div>
                 </div>

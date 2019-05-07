@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { getUid } from '../../utilities/uid';
 import './hamDropDown.css';
 import hamburgerMenu from '../../images/hamburgerMenu.svg';
 import facebook from '../../images/FacebookLogo.svg';
@@ -60,7 +59,7 @@ export default class HamDropdown extends Component {
                     <Link to='/' onClick={this.handleClick.bind(this)} className='ham-menu-items'>HOME</Link>
                     <Link to='/menu' onClick={this.handleClick.bind(this)} className='ham-menu-items'>MENU</Link>
                     <Link to='/contact' onClick={this.handleClick.bind(this)} className='ham-menu-items'>CONTACT</Link>
-                    <a href='https://reefcafe.mobilebytes.com/' target='_blank' onClick={this.handleClick.bind(this)} className='ham-menu-items'>ORDER</a>
+                    <a href='https://reefcafe.mobilebytes.com/' target='_blank' rel="noopener noreferrer" onClick={this.handleClick.bind(this)} className='ham-menu-items'>ORDER</a>
                 </div>}
             </div>
         )

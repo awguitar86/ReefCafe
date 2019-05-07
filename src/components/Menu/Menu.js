@@ -22,9 +22,9 @@ class Menu extends Component {
                 <HeaderTwo />
                 <div className='menu-container'>
                     <div className='menu-header'>
-                        <a href='https://reefcafe.mobilebytes.com/' target='_blank' className='order-online'><button>Order Online</button></a>
+                        <a href='https://reefcafe.mobilebytes.com/' target='_blank' rel="noopener noreferrer" className='order-online'><button>Order Online</button></a>
                         <h1>MENU</h1>
-                        <a href='https://reefcafe.mobilebytes.com/' target='_blank' className='order-online-mobile'><button>Order Online</button></a>
+                        <a href='https://reefcafe.mobilebytes.com/' target='_blank' rel="noopener noreferrer" className='order-online-mobile'><button>Order Online</button></a>
                         <a href={PDFMenu} download><button>Download Menu</button></a>
                     </div>
                     <div className='menu-body'>

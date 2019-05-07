@@ -14,13 +14,7 @@ class Bakery extends Component {
                     <div className='left-menu-items'>
                         <div className='menu-item'>
                             <div>
-                                <h3>Uncrustables</h3>
-                                <h3>$2.99</h3>
-                            </div>
-                        </div>
-                        <div className='menu-item'>
-                            <div>
-                                <h3>Brownies</h3>
+                                <h3>Uncrustable Sandwich</h3>
                                 <h3>$2.99</h3>
                             </div>
                         </div>
@@ -40,12 +34,6 @@ class Bakery extends Component {
                             <div>
                                 <h3>Churro</h3>
                                 <h3>$3.99</h3>
-                            </div>
-                        </div>
-                        <div className='menu-item'>
-                            <div>
-                                <h3>Butterfly Cookie</h3>
-                                <h3>$4.49</h3>
                             </div>
                         </div>
                         <div className='menu-item'>
@@ -75,6 +63,12 @@ class Bakery extends Component {
                         <div className='menu-item'>
                             <div>
                                 <h3>Pretzel Bites</h3>
+                                <h3>$4.99</h3>
+                            </div>
+                        </div>
+                        <div className='menu-item'>
+                            <div>
+                                <h3>Gluten-free Brownie</h3>
                                 <h3>$4.99</h3>
                             </div>
                         </div>

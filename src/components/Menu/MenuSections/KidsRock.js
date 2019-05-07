@@ -17,31 +17,31 @@ class KidsRock extends Component {
                         <div className='menu-item'>
                             <div>
                                 <h3>Nachos</h3>
-                                <h3>$4.99</h3>
+                                <h3>$6.49</h3>
                             </div>
                         </div>
                         <div className='menu-item'>
                             <div>
                                 <h3>Mac & Cheese</h3>
-                                <h3>$4.99</h3>
+                                <h3>$6.49</h3>
                             </div>
                         </div>
                         <div className='menu-item'>
                             <div>
                                 <h3>Cheese Quesadilla</h3>
-                                <h3>$4.99</h3>
+                                <h3>$6.49</h3>
                             </div>
                         </div>
                         <div className='menu-item'>
                             <div>
                                 <h3>Grilled Cheese</h3>
-                                <h3>$4.99</h3>
+                                <h3>$6.49</h3>
                             </div>
                         </div>
                         <div className='menu-item'>
                             <div>
                                 <h3>Cheeseburger Slider</h3>
-                                <h3>$4.99</h3>
+                                <h3>$6.49</h3>
                             </div>
                         </div>
                     </div>

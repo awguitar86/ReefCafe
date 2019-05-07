@@ -16,7 +16,7 @@ class Rice extends Component {
                         <div className='menu-item'>
                             <div>
                                 <h3>Sweet Chile Shrimp - Grilled Chicken - Steak</h3>
-                                <h3>$9.49</h3>
+                                <h3>$10.49</h3>
                             </div>
                             <p>Steamed rice or rice noodles with stir fried vegetables and choice of meat with Teriyaki sauce or Thai Peanut sauce.</p>
                         </div>

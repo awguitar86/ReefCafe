@@ -19,22 +19,38 @@
 .footer-left {
     width: 600px;
     display: flex;
-    flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     // margin-top: 20px;
     a {
         display: flex;
         justify-content: center;
         align-items: center;
-        background: white;
-        border-radius: 11px;
-        img {
-            width: 120px;
-            height: auto;
-        }
     }
 }
+.icon-culinary-logo {
+    background: white;
+    border-radius: 11px;
+    margin-right: 20px;
+    img {
+        width: 120px;
+        height: auto;
+    }
+}
+.insta-logo {
+    img {
+        width: 63px;
+        height: auto;
+    }
+}
+.facebook-logo {
+    margin-right: 20px;
+    img {
+        width: 63px;
+        height: auto;
+    }
+}
+
 
 .footer-right {
     width: 600px;
