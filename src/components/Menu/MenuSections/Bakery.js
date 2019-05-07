@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './leftMenu.css';
-import Brownies from '../../../images/MenuBrownies.jpg';
 import Cupcakes from '../../../images/MenuCupcakes.jpg';
 import Cookies from '../../../images/MenuCookies.jpg';
 
@@ -81,7 +80,6 @@ class Bakery extends Component {
                     </div>
                 </div>
                 <div className='left-menu-images'>
-                    <img src={Brownies} alt='brownies'/>
                     <img src={Cupcakes} alt='cupcakes'/>
                     <img src={Cookies} alt='cookies'/>
                 </div>

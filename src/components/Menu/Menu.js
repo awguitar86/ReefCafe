@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import HeaderTwo from '../HeaderTwo/HeaderTwo';
 import './menu.css';
-import PDFMenu from './ReefCafeMenu.pdf';
+import PDFMenu from './ReefCafe_Downloadable_Menu.pdf';
 
 import Sandwiches from './MenuSections/Sandwiches';
 import Salads from './MenuSections/Salads';
